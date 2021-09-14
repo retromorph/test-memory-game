@@ -5,7 +5,7 @@
   }">
     <transition name="fade">
       <img v-if="modelValue"
-           src="@/assets/images/cards_snapshot.jpg"
+           src="@/assets/images/cards_snapshot.jpeg"
            :alt="`Картинка карточки ${cardNumber}`" />
     </transition>
   </div>

@@ -1,9 +1,4 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link>
-    |
-    <router-link to="/about">About</router-link>
-  </div>
   <router-view />
 </template>
 
@@ -17,13 +12,19 @@ body
 
 h1
   margin: 2px 0
+  color secondary-color
   h1()
 
 h2
   margin: 2px 0
+  color secondary-color
   h2()
 
 h4
   margin: 2px 0
+  color secondary-color
   h4()
+
+a
+  text-decoration none
 </style>

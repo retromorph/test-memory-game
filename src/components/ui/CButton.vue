@@ -72,6 +72,7 @@ export default defineComponent({
   &--active
     border none
     background-color secondary-color
+    padding 0 32px
     color primary-color
 
     &:hover

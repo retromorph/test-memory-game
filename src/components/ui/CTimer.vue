@@ -1,6 +1,5 @@
 <template>
-  <div
-    :class="{'c-timer': true}">
+  <div class="c-timer">
     {{ minutes }}
     :
     {{ seconds }}
@@ -11,7 +10,7 @@
 import { defineComponent } from "vue"
 
 export default defineComponent({
-  name: "c-counter",
+  name: "c-timer",
   props: {
     modelValue: {
       type: Number,
@@ -20,10 +19,10 @@ export default defineComponent({
   },
   computed: {
     minutes(): number {
-      return Math.ceil(modelValue / 60)
+      return Math.ceil(this.modelValue / 60)
     },
     seconds(): number {
-      return modelValue - this.minutes * 60
+      return this.modelValue - this.minutes * 60
     },
   },
   mounted() {

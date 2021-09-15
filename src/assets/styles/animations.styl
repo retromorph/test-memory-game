@@ -9,21 +9,15 @@
   opacity 0
 
 // keyframes
-@keyframes flip-over {
-  0% {
-    -webkit-transform: scale(0.3) rotate(0deg);
-    opacity: 0;
-  }
-  25% {
-    -webkit-transform: scale(1) rotate(360deg);
-    opacity: 1;
-  }
-  50% {
-    -webkit-transform: scale(0.3) rotate(720deg);
-    opacity: 0;
-  }
-  75% {
-    -webkit-transform: scale(0.3) rotate(0deg);
-    opacity: 0;
-  }
-}
+@keyframes flip-over
+  0%
+    transform rotateY(0deg)
+
+  25%
+    transform rotateY(360deg)
+
+  50%
+    transform rotateY(720deg)
+
+  75%
+    transform rotateY(0deg)

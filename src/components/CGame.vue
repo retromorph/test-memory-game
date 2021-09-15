@@ -26,6 +26,6 @@ export default {
 
 .c-game
   display grid
-  grid-template-columns repeat(6, 1fr)
+  grid-template-columns repeat(6, min-content)
   grid-gap 16px
 </style>

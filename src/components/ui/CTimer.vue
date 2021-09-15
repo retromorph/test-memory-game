@@ -42,10 +42,11 @@ export default defineComponent({
   display inline-flex
   justify-content center
   align-items: center
-  width 40px
-  height 40px
+  width 60px
+  height 60px
   border-radius 100%
-  background-color secondary-color
-  color primary-color
-  h4()
+  background-color primary-color
+  color secondary-color
+  box-shadow 0 0 8px rgba(0, 0, 0, 0.4)
+  h2()
 </style>

@@ -39,7 +39,7 @@ export default {
         this.$refs.card.style.backgroundImage = `url(${require("@/assets/images/cards_snapshot.jpeg")})`
         this.$refs.image.style.backgroundPosition = `${((this.cardNumber - 1) % 4) * 256}px ${Math.ceil(this.cardNumber / 4) * 256}px`
       } else {
-
+        this.$refs.card.style.backgroundImage = "none"
       }
     },
   },
